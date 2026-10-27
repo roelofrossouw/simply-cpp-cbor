@@ -1,0 +1,1 @@
+CBOR for simply-cpp (RFC 8949): decoding with limits and validity checks, preferred and deterministic encoding, diagnostic notation, JSON
