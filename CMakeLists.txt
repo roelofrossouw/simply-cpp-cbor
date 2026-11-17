@@ -9,7 +9,7 @@ get_sc_version()
 message(STATUS "SimplyCPP ${SC_MODULE} Version: ${SC_VERSION}")
 
 # 1.26.0: sc::base64::encode_url (JSON's bytes); utf8::is_valid (text).
-find_or_install_package(sc-core simply-cpp-dev simply-cpp 2.2.0)
+find_or_install_package(sc-core simply-cpp-dev simply-cpp 3.0.0)
 find_or_install_package(nlohmann_json nlohmann-json3-dev nlohmann_json)
 
 set(SOURCE_OBJECTS)
@@ -36,4 +36,4 @@ endif ()
 
 add_sc_example(sc-cbor-demo)
 
-package_sc_module(DEV_DEPENDS "simply-cpp-dev (>= 1.26.0~)" nlohmann-json3-dev)
+package_sc_module(DEV_DEPENDS "simply-cpp-dev (>= 3.0.0~)" nlohmann-json3-dev)
