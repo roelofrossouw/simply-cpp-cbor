@@ -9,7 +9,7 @@ JSON. It's our own code, with nothing but sc-core under it.
 **Documentation:** the [simply-cpp wiki](https://github.com/roelofrossouw/simply-cpp/wiki) has the [sc-cbor reference](https://github.com/roelofrossouw/simply-cpp/wiki/Reference-sc-cbor).
 
 ```cpp
-#include <sc_cbor.h>
+#include <sc/cbor/sc_cbor.h>
 
 const auto item = sc::cbor::decode(bytes);            // the whole input, one data item
 item.find(3)->integer();                               // a map's value for the key 3

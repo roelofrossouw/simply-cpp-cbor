@@ -1,7 +1,7 @@
-#include "sc_cbor.h"
+#include <sc/cbor/sc_cbor.h>
 
-#include <base64.h>
-#include <utf8.h>
+#include <sc/core/base64.h>
+#include <sc/core/utf8.h>
 
 #include <algorithm>
 #include <charconv>
