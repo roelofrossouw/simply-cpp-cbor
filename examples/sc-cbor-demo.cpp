@@ -4,7 +4,7 @@
 //     sc-cbor-demo a201020304              # {1: 2, 3: 4}
 //     sc-cbor-demo --file attestation.cbor --json
 
-#include <sc/cbor/sc_cbor.h>
+#include <sc/cbor/cbor.h>
 #include <sc/core/params.h>
 
 #include <fstream>

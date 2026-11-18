@@ -1,4 +1,4 @@
-#include <sc/cbor/sc_cbor.h>
+#include <sc/cbor/cbor.h>
 
 #include <sc/core/base64.h>
 #include <sc/core/utf8.h>

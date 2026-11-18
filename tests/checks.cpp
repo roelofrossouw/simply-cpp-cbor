@@ -1,7 +1,7 @@
 // What decoding refuses (RFC 8949 Appendix F's not-well-formed examples, section 5.3's validity,
 // the limits and strict mode), deterministic encoding (4.2.1), the JSON conversions (section 6),
 // CBOR sequences (RFC 8742), and building values in code.
-#include <sc/cbor/sc_cbor.h>
+#include <sc/cbor/cbor.h>
 
 #include "sc_test.h"
 

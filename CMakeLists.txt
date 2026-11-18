@@ -16,7 +16,7 @@ set(SOURCE_OBJECTS)
 set(SOURCE_LIBRARIES)
 set(SOURCE_LINK_LIBRARIES)
 
-add_sc_object(sc_cbor
+add_sc_object(cbor
         LINK_LIBRARIES sc::sc-core nlohmann_json::nlohmann_json
         PUBLIC_LINK_LIBRARIES sc::sc-core nlohmann_json::nlohmann_json)
 

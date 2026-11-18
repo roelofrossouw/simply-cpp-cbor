@@ -1,7 +1,7 @@
 // RFC 8949 Appendix A: every example decodes to its value (as diagnostic notation), and encoding
 // it again gives the same bytes (they're all in preferred serialization); the indefinite length
 // ones decode to what their definite forms encode.
-#include <sc/cbor/sc_cbor.h>
+#include <sc/cbor/cbor.h>
 
 #include "sc_test.h"
 
